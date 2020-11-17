@@ -74,11 +74,11 @@ http://moja.domena.pl/index.php?action=login&id=<numer>
 Poniżej przykładowe kody użyte w aplikacji uruchomionej na stronie
 [http://qrcode.cmmsigma.eu](http://qrcode.cmmsigma.eu):
 
-1. [http://qrcode.cmmsigma.eu/index.php?action=book&id=1](http://qrcode.cmmsigma.eu/index.php?action=book&id=1 = 100x100)
-<img src="img/b01.png" width="100" height="100"/>
+1. ``http://qrcode.cmmsigma.eu/index.php?action=book&id=1``
+<img src="img/b01.png" width="200" height="200"/>
 
-2. [http://qrcode.cmmsigma.eu/index.php?action=login&id=1](http://qrcode.cmmsigma.eu/index.php?action=login&id=1 = 100x100)
-<img src="img/u01.png" width="100" height="100"/>
+2. ``http://qrcode.cmmsigma.eu/index.php?action=login&id=1``
+<img src="img/u01.png" width="200" height="200"/>
 
 ## Licencja
 [MIT](LICENSE)
