@@ -30,13 +30,13 @@ WWW server that supports PHP.
 
 ## Generating QR codes for the application
 The codes for the books are as follows:
-``
+```
 http://moja.domena.pl/index.php?action=book&id= <number>
-``
+```
 The codes for users are in the form of:
-``
+```
 http://moja.domena.pl/index.php?action=login&id= <number>
-``
+```
 Below you can find examples of codes used in the application running 
 on the website
 [http://qrcode.cmmsigma.eu](http://qrcode.cmmsigma.eu):
