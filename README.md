@@ -29,7 +29,7 @@ After defining these options, the application can be launched on the
 WWW server that supports PHP.
 
 ## License
-[MIT] (LICENSE)
+[MIT](LICENSE)
 
 
 # QR-codes (Polski)
