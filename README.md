@@ -62,5 +62,23 @@ $dbname = '';
 Po zdefiniowaniu tych opcji aplikacja może zostać uruchomiona w serwisie 
 WWW obsługującym język PHP.
 
+## Generowanie kodów QR dla aplikacji
+Kody dla książek mają postać:
+```
+http://moja.domena.pl/index.php?action=book&id=<numer>
+```
+Kody dla użytkowników są natomiast postaci:
+```
+http://moja.domena.pl/index.php?action=login&id=<numer>
+```
+Poniżej przykładowe kody użyte w aplikacji uruchomionej na stronie
+[http://qrcode.cmmsigma.eu](http://qrcode.cmmsigma.eu):
+
+1. [http://qrcode.cmmsigma.eu/index.php?action=book&id=1](http://qrcode.cmmsigma.eu/index.php?action=book&id=1)
+![BOOK ID=1](img/b01.png)
+
+2. [http://qrcode.cmmsigma.eu/index.php?action=login&id=1](http://qrcode.cmmsigma.eu/index.php?action=login&id=1)
+![USER ID=1](img/u01.png)
+
 ## Licencja
 [MIT](LICENSE)
