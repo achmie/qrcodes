@@ -28,6 +28,25 @@ $dbname = '';
 After defining these options, the application can be launched on the 
 WWW server that supports PHP.
 
+## Generating QR codes for the application
+The codes for the books are as follows:
+``
+http://moja.domena.pl/index.php?action=book&id= <number>
+``
+The codes for users are in the form of:
+``
+http://moja.domena.pl/index.php?action=login&id= <number>
+``
+Below you can find examples of codes used in the application running 
+on the website
+[http://qrcode.cmmsigma.eu](http://qrcode.cmmsigma.eu):
+
+1. ``http://qrcode.cmmsigma.eu/index.php?action=book&id=1``
+<img src="img/b01.png" width="200" height="200"/>
+
+2. ``http://qrcode.cmmsigma.eu/index.php?action=login&id=1``
+<img src="img/u01.png" width="200" height="200"/>
+
 ## License
 [MIT](LICENSE)
 
