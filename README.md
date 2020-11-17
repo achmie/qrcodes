@@ -19,11 +19,11 @@ into a database that is exactly as structured as it was
 specified in the file [sql/qrcodes_db.sql](sql/qrcodes_db.sql). Access 
 to databases define by entering the username, password to the database 
 and name of database:
-`` php
+```php
 $ dbuser = '';
 $ dbpass = '';
 $ dbname = '';
-``
+```
 
 After defining these options, the application can be launched on the 
 WWW server that supports PHP.
