@@ -20,9 +20,9 @@ specified in the file [sql/qrcodes_db.sql](sql/qrcodes_db.sql). Access
 to databases define by entering the username, password to the database 
 and name of database:
 ```php
-$ dbuser = '';
-$ dbpass = '';
-$ dbname = '';
+$dbuser = '';
+$dbpass = '';
+$dbname = '';
 ```
 
 After defining these options, the application can be launched on the 
